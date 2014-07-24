@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-Having fun installing all that software needed to start a new rails project? No?<br />Then use this VM instead. Read this article to find out why this is a great thing: 
+Having fun installing all that software needed to start a new rails project? No?<br />Then use this VM instead. Read this article to find out why this is a great thing:
 
 http://blog.base2.io/2012/05/01/vagrants-and-chefs-and-librarians-oh-my/#.UQmCJEq6BYh
 
@@ -434,4 +433,3 @@ Copyright (c) 2013 ApplicationsOnline, LLC.
 
 Released under the terms of the MIT License. For further information, please see
 the file `LICENSE.txt`.
->>>>>>> 603de858cef9e4e4a25f5013f28d43e218b942b7

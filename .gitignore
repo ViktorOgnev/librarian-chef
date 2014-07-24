@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 .vagrant
 cookbooks/
 tmp
 app/*
-=======
 /*.gem
 /.bundle
 /Gemfile.lock
@@ -13,4 +11,3 @@ app/*
 
 /bin/*
 !/bin/librarian-chef
->>>>>>> 603de858cef9e4e4a25f5013f28d43e218b942b7
