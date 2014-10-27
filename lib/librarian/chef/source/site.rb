@@ -337,7 +337,7 @@ module Librarian
 
           def http(uri)
             net_http = environment.net_http_class(uri.host).new(uri.host, uri.port)
-            net_http.use_ssl = true if uri.scheme == 'https'
+            net_http.use_ssl = true if uri.scheme == 'https' and not ENV['FORBID_SSL']
             net_http
           end
 
@@ -348,7 +348,7 @@ module Librarian
             loop do
               debug { "Performing http-get for #{uri}" }
               http = http(uri)
-              http.use_ssl = uri.scheme == 'https'
+              http.use_ssl = uri.scheme == 'https' and not ENV['FORBID_SSL']
               request = Net::HTTP::Get.new(uri.path)
               response = http.start{|http| http.request(request)}
 
